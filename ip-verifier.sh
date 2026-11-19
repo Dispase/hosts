@@ -30,3 +30,4 @@ while read -r ip name; do
   verify-IP "$name" "$ip"
 
 done <"$HOSTS"
+echo "Modified by Cornea Radu"
